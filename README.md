@@ -76,14 +76,14 @@ Download our pretrained checkpoints from huggingface or modelscope using the fol
 
 ```
 # if you are using huggingface
-hf download --local-dir './ckpt' 'HeartMuLa/HeartMuLaGen'
-hf download --local-dir './ckpt/HeartMuLa-oss-3B' 'HeartMuLa/HeartMuLa-oss-3B'
-hf download --local-dir './ckpt/HeartCodec-oss' 'HeartMuLa/HeartCodec-oss'
+hf download --local-dir ./ckpt HeartMuLa/HeartMuLaGen
+hf download --local-dir ./ckpt/HeartMuLa-oss-3B HeartMuLa/HeartMuLa-oss-3B
+hf download --local-dir ./ckpt/HeartCodec-oss HeartMuLa/HeartCodec-oss
 
 # if you are using modelscope
-modelscope download --model 'HeartMuLa/HeartMuLaGen' --local_dir './ckpt'
-modelscope download --model 'HeartMuLa/HeartMuLa-oss-3B' --local_dir './ckpt/HeartMuLa-oss-3B'
-modelscope download --model 'HeartMuLa/HeartCodec-oss' --local_dir './ckpt/HeartCodec-oss'
+modelscope download --model HeartMuLa/HeartMuLaGen --local_dir ./ckpt
+modelscope download --model HeartMuLa/HeartMuLa-oss-3B --local_dir ./ckpt/HeartMuLa-oss-3B
+modelscope download --model HeartMuLa/HeartCodec-oss --local_dir ./ckpt/HeartCodec-oss
 ```
 
 After downloading, the `./ckpt` subfolder should structure like this:
